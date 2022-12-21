@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+#horoscope {
+
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    text-align: center;
+    width: 15%;
+    border-radius: 15px;
+}
+
+body {
+    z-index: 0;
+    background-image: linear-gradient(90deg, rgb(180, 80, 167), rgb(143, 63, 197));
+    
+}
+
+#title {
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    font-size: 3em;
+}
+
+#answerBlock {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    text-align: center;
+    width: 40%;
+}
+
+#background {
+    z-index: 1;
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(45deg, rgb(180, 80, 167), rgb(143, 63, 197));
+    margin-left: auto;
+    margin-right: 10%;
+    border-radius: 50%;
+}
+
+#background:hover {
+    transform: rotate(30deg);
+}
+
+ 
